@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!DOCTYPE hibernate-mapping PUBLIC  
+          "-//Hibernate/Hibernate Mapping DTD 5.3//EN"  
+          "http://hibernate.sourceforge.net/hibernate-mapping-5.3.dtd"> 
+        
+          <hibernate-mapping>
+          <class name="mypack.Question" table="que11">
+           <id name="id" type="int">
+         <column name="q_id"></column>
+         <generator class="increment"></generator>
+         </id>
+         <property name="qname"></property>
+         <list name="answers" table="que_ans" fetch="select" cascade="all">
+         <key column="q_id"></key>
+         <index column="type"/>
+         <many-to-many class="mypack.Answer" column="ans_id"/>
+         </list>
+         </class>
+         
+          </hibernate-mapping>

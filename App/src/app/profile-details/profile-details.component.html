@@ -1,0 +1,8 @@
+<p>profile-details works!</p>
+<form>
+	Name:<input type="text" name="name" #name ><br>
+	Address:<input type="text" name="address" #address><br>
+	email:<input type="email" name="text" #email><br>
+	Contact Number:<input type="number" name="contact" #contact><br>
+	<input type="submit" name="Sub" (click)=show(name.value,address.value,email.value,contact.value)>
+</form>

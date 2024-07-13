@@ -1,0 +1,8 @@
+#include<stdio.h>
+void main(){
+
+	printf("hellow");
+	printf("get raaj daata");
+	printf("this is data ");
+	getch();
+}

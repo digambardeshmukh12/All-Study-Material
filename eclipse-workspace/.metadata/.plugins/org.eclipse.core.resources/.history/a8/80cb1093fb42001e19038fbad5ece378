@@ -1,0 +1,13 @@
+<!DOCTYPE html>
+<html>
+<body>
+<form action="first.jsp" method="post">
+  <h2>Login Form</h2>
+  <label for="t1">User Name:</label>
+  <input type="text" name="t1" /><br><br>
+  <label for="t2">Password:</label>
+  <input type="password" name="t2" /><br><br>
+  <input type="submit" value="Login" />
+</form>
+</body>
+</html>

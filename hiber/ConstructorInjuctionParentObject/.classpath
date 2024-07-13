@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<classpath>
+	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/jre1.8.0_311"/>
+	<classpathentry kind="src" path="src"/>
+	<classpathentry kind="lib" path="D:/EDUCATIONAL/jar files all/jar_files/mysql-connector-java-8.0.11.jar"/>
+	<classpathentry kind="lib" path="D:/EDUCATIONAL/jar files all/core sping jar files/spcorejars/com.springsource.org.apache.commons.logging-1.1.1.jar"/>
+	<classpathentry kind="lib" path="D:/EDUCATIONAL/jar files all/core sping jar files/spcorejars/com.springsource.org.apache.log4j-1.2.15.jar"/>
+	<classpathentry kind="lib" path="D:/EDUCATIONAL/jar files all/core sping jar files/spcorejars/jmxtools-1.2.1.jar"/>
+	<classpathentry kind="lib" path="D:/EDUCATIONAL/jar files all/core sping jar files/spcorejars/org.springframework.asm-3.0.1.RELEASE-A.jar"/>
+	<classpathentry kind="lib" path="D:/EDUCATIONAL/jar files all/core sping jar files/spcorejars/org.springframework.beans-3.0.1.RELEASE-A.jar"/>
+	<classpathentry kind="lib" path="D:/EDUCATIONAL/jar files all/core sping jar files/spcorejars/org.springframework.context-3.0.1.RELEASE-A.jar"/>
+	<classpathentry kind="lib" path="D:/EDUCATIONAL/jar files all/core sping jar files/spcorejars/org.springframework.core-3.0.1.RELEASE-A.jar"/>
+	<classpathentry kind="lib" path="D:/EDUCATIONAL/jar files all/core sping jar files/spcorejars/org.springframework.expression-3.0.1.RELEASE-A.jar"/>
+	<classpathentry kind="lib" path="D:/EDUCATIONAL/jar files all/springjars/persistJdbc/persistJdbc/com.springsource.com.mchange.v2.c3p0-0.9.1.2.jar"/>
+	<classpathentry kind="lib" path="D:/EDUCATIONAL/jar files all/springjars/persistJdbc/persistJdbc/com.springsource.org.apache.commons.lang-2.4.0.jar"/>
+	<classpathentry kind="lib" path="D:/EDUCATIONAL/jar files all/springjars/persistJdbc/persistJdbc/com.springsource.org.apache.commons.pool-1.5.3.jar"/>
+	<classpathentry kind="lib" path="D:/EDUCATIONAL/jar files all/springjars/persistJdbc/persistJdbc/commons-dbcp.jar"/>
+	<classpathentry kind="lib" path="D:/EDUCATIONAL/jar files all/springjars/persistJdbc/persistJdbc/jotm.jar"/>
+	<classpathentry kind="lib" path="D:/EDUCATIONAL/jar files all/springjars/persistJdbc/persistJdbc/xapool.jar"/>
+	<classpathentry kind="lib" path="D:/EDUCATIONAL/jar files all/springjars/persistCore/persistCore/org.springframework.jdbc-3.0.1.RELEASE-A.jar"/>
+	<classpathentry kind="lib" path="D:/EDUCATIONAL/jar files all/springjars/persistCore/persistCore/org.springframework.orm-3.0.1.RELEASE-A.jar"/>
+	<classpathentry kind="lib" path="D:/EDUCATIONAL/jar files all/springjars/persistCore/persistCore/org.springframework.transaction-3.0.1.RELEASE-A.jar"/>
+	<classpathentry kind="lib" path="D:/EDUCATIONAL/jar files all/springjars/persistCore/persistCore/persistence.jar"/>
+	<classpathentry kind="output" path="bin"/>
+</classpath>

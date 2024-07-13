@@ -1,0 +1,29 @@
+<p>directives works!</p>
+<h1>NGIF</h1>
+<div *ngIf="profile.name=='SWATI'">
+	<h1>Name:{{profile.name}}</h1>
+	<h1>Email:{{profile.email}}</h1>
+</div>
+<h1>NG SWITCH STATEMENT</h1>
+<ul [ngSwitch]="'Swati'" >
+<li *ngSwitchCase="'Komal'">Hello Komal</li>
+<li *ngSwitchCase="'Swati'">Hello SWATi</li>
+<li *ngSwitchCase="'Rutuja'">Hello Rutuja</li>
+<li *ngSwitchCase="'Neha'">Hello Neha</li>
+<li *ngSwitchDefault>Bye Bye</li>
+</ul>
+<h1>ngFor</h1>
+<div *ngFor="let hero of Girls">
+	<p>{{hero.name +" "}}{{hero.surname}}</p>
+</div>
+<h1>ngClass</h1>
+<!-- toggle the "special" class on/off with a property -->
+<div [class.special]="isSpecial">
+<h1> Just Do it</h1>
+</div>
+<h1>ngClass another way</h1>
+<div [ngClass]="{'text-success':true}"><h1> Just Do it </h1>
+ </div>
+<h1>ngStyle</h1>
+<div [ngStyle]="{'font-style':'italic'}"><h1> Just Do it </h1>
+</div>

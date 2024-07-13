@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Edit Visitor</title>
+</head>
+<body>
+    <h1>Edit Visitor</h1>
+    <form th:action="@{/updateVisitor/{id}(id=${visitor.visitorNo})}" th:object="${visitor}" method="post">
+        Name: <input type="text" th:field="*{name}"><br>
+        Mobile No: <input type="text" th:field="*{mobileNo}"><br>
+        Work: <input type="text" th:field="*{work}"><br>
+        ID Card Details: <input type="text" th:field="*{idCardDetails}"><br>
+        <button type="submit">Update</button>
+    </form>
+    <a href="/showVisitors">Back to Visitors List</a>
+</body>
+</html>

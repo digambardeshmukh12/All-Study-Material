@@ -1,0 +1,20 @@
+<p>my-new works!</p>
+<h2 class="text-success">Welcome to Profound</h2>
+<h4>NgClass</h4>
+<ul *ngFor="let person of people">
+<li [ngClass]="{
+'text-success':person.country === 'UK',
+'text-primary':person.country === 'USA',
+'text-danger':person.country === 'HK'
+}">{{ person.name }} ({{ person.country }})
+</li>
+</ul>
+
+<div [ngStyle]="{'background-color':'cyan'}">ngStyle</div>
+<h3>Has Property</h3>
+<h3 [style.color] = "hasError?'red':'green'">Styli Binding</h3>
+<h3>NG IF Statement</h3>
+<div *ngIf="profile.name=='SWATI'">
+<h2>Name :{{profile.name}}</h2>
+<h2>email:{{profile.email}}</h2>
+</div>

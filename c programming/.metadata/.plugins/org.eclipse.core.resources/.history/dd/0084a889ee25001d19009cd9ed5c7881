@@ -1,0 +1,23 @@
+#include<stdio.h>
+#include<conio.h>
+
+void square(){
+
+	int a , b ;
+
+	printf("enter the number");
+	printf("\n %d",a);
+
+	b = a*a;
+	printf("\n the square of %d is % d ",a,b)
+
+
+}
+
+void main(){
+
+	clrscr();
+
+	square();
+	getch();
+}

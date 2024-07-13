@@ -1,0 +1,9 @@
+<p>profiledetailsngmodel works!</p>
+<form>
+	Name:<input type="text" name="name" [(ngModel)]="profile.name" ><br>
+	Address:<input type="text" name="address" [(ngModel)]="profile.address"><br>
+	email:<input type="email" name="text" [(ngModel)]="profile.email"><br>
+	Contact Number:<input type="number" name="contact" [(ngModel)]="profile.contact"><br>
+	<input type="submit" name ="ProfileDetail" (click)="printDetails(profile)">
+
+</form>

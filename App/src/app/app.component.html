@@ -1,0 +1,26 @@
+
+<router-outlet></router-outlet>
+<app-my-new> </app-my-new>
+<h1>Data sending parent to child </h1>
+<app-parenttochild [data]="stdarr" [title]="title"></app-parenttochild>
+<h1> Sending data from child to parent </h1>
+<app-childtoparent (talk)="talkBack($event)"></app-childtoparent>
+<div *ngFor="let c of chatItems">
+  Child says:{{c}}
+</div>
+<h1>Hello I am Using Profile Details </h1>
+<app-profile-details></app-profile-details>
+<h1>Using NG MODEl </h1>
+<app-profiledetailsngmodel></app-profiledetailsngmodel>
+<h1>Directive Component </h1>
+<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Delectus quos maiores,
+   inventore earum provident, quibusdam corporis dolore 
+   fugit, totam quam eveniet dolor veritatis.
+   At odio consequuntur ullam possimus. Consectetur sunt natus ipsam sit
+    voluptatem voluptas sint, tempore eum iure assumenda nihil 
+    vero rerum accusantium ea voluptate tenetur 
+   nulla voluptatum quam, modi, corrupti porro
+    temporibus adipisci soluta illo. Qui perspiciatis officiis,
+   ab voluptatem impedit dicta, cupiditate dolore doloribus soluta facere itaque 
+   consequuntur alias placeat neque iure obcaecati voluptas recusandae!</p>
+<app-directives></app-directives>

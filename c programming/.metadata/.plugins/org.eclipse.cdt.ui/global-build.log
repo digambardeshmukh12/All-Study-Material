@@ -1,0 +1,97 @@
+15:18:22 **** Rebuild of configuration Debug for project c program ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o function.o "..\\function.c" 
+..\function.c:2:6: warning: return type of 'main' is not 'int' [-Wmain]
+ void main(){
+      ^~~~
+..\function.c: In function 'main':
+..\function.c:7:2: warning: implicit declaration of function 'getch' [-Wimplicit-function-declaration]
+  getch();
+  ^~~~~
+gcc -o "c program.exe" function.o 
+Info: Nothing to build for c program
+15:18:54 **** Incremental Build of configuration Debug for project c program ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o function.o "..\\function.c" 
+..\function.c:2:6: warning: return type of 'main' is not 'int' [-Wmain]
+ void main(){
+      ^~~~
+..\function.c: In function 'main':
+..\function.c:7:2: warning: implicit declaration of function 'getch' [-Wimplicit-function-declaration]
+  getch();
+  ^~~~~
+gcc -o "c program.exe" function.o 
+Info: Nothing to build for c program
+15:19:13 **** Incremental Build of configuration Debug for project c program ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o function.o "..\\function.c" 
+..\function.c:2:6: warning: return type of 'main' is not 'int' [-Wmain]
+ void main(){
+      ^~~~
+..\function.c: In function 'main':
+..\function.c:7:2: warning: implicit declaration of function 'getch' [-Wimplicit-function-declaration]
+  getch();
+  ^~~~~
+gcc -o "c program.exe" function.o 
+Info: Nothing to build for c program
+15:25:44 **** Incremental Build of configuration Debug for project c program ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o function.o "..\\function.c" 
+..\function.c: In function 'square':
+..\function.c:15:1: error: expected ';' before '}' token
+ }
+ ^
+..\function.c: At top level:
+..\function.c:17:6: warning: return type of 'main' is not 'int' [-Wmain]
+ void main(){
+      ^~~~
+..\function.c: In function 'main':
+..\function.c:19:2: warning: implicit declaration of function 'clrscr' [-Wimplicit-function-declaration]
+  clrscr();
+  ^~~~~~
+15:25:46 **** Incremental Build of configuration Debug for project c program ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o function.o "..\\function.c" 
+..\function.c: In function 'square':
+..\function.c:15:1: error: expected ';' before '}' token
+ }
+ ^
+..\function.c: At top level:
+..\function.c:17:6: warning: return type of 'main' is not 'int' [-Wmain]
+ void main(){
+      ^~~~
+..\function.c: In function 'main':
+..\function.c:19:2: warning: implicit declaration of function 'clrscr' [-Wimplicit-function-declaration]
+  clrscr();
+  ^~~~~~
+15:27:07 **** Incremental Build of configuration Debug for project c program ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o function.o "..\\function.c" 
+..\function.c:17:6: warning: return type of 'main' is not 'int' [-Wmain]
+ void main(){
+      ^~~~
+..\function.c: In function 'main':
+..\function.c:19:2: warning: implicit declaration of function 'clrscr' [-Wimplicit-function-declaration]
+  clrscr();
+  ^~~~~~
+..\function.c: In function 'square':
+..\function.c:9:2: warning: 'a' is used uninitialized in this function [-Wuninitialized]
+  printf("\n %d",a);
+  ^~~~~~~~~~~~~~~~~
+gcc -o "c program.exe" function.o 
+function.o: In function `main':
+D:\EDUCATIONAL\c programming\c program\Debug/../function.c:19: undefined reference to `clrscr'
+collect2.exe: error: ld returned 1 exit status
+15:27:45 **** Incremental Build of configuration Debug for project c program ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o function.o "..\\function.c" 
+..\function.c:17:6: warning: return type of 'main' is not 'int' [-Wmain]
+ void main(){
+      ^~~~
+..\function.c: In function 'square':
+..\function.c:9:2: warning: 'a' is used uninitialized in this function [-Wuninitialized]
+  printf("\n %d",a);
+  ^~~~~~~~~~~~~~~~~
+gcc -o "c program.exe" function.o 
+Info: Nothing to build for c program
+Info: Nothing to build for c program

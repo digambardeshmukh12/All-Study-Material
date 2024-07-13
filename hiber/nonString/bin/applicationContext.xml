@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans" 
+xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
+xsi:schemaLocation=
+"http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans.xsd">
+
+<bean id="ob" class="mypack.Answer">
+<property name="aname" value = "Java is Programming language"></property>
+<property name="postedby" value="Ravan"></property>
+
+</bean>
+
+
+<bean id="ob2" class="mypack.Answer">
+<property name="aname" value = "Java is platform independent"></property>
+<property name="postedby" value="Raj"></property>
+
+</bean>
+
+<bean id="s" class="mypack.Question">
+<property name="qid" value = "110"></property>
+<property name="qname" value="What is java ?"></property>
+
+<property name="li">
+<list>
+<ref bean = "ob" />
+<ref bean = "ob2" />
+</list>
+</property>
+
+</bean>
+
+
+
+
+</beans>

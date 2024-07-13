@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Show Visitors</title>
+</head>
+<body>
+    <h1>Visitors List</h1>
+    <table>
+        <tr>
+            <th>Name</th>
+            <th>Mobile No</th>
+            <th>Work</th>
+            <th>ID Card Details</th>
+            <th>Action</th>
+        </tr>
+        <tr th:each="visitor : ${visitors}">
+            <td th:text="${visitor.name}"></td>
+            <td th:text="${visitor.mobileNo}"></td>
+            <td th:text="${visitor.work}"></td>
+            <td th:text="${visitor.idCardDetails}"></td>
+            <td>
+                <a th:href="@{/editVisitor/{id}(id=${visitor.visitorNo})}">Edit</a>
+                <a th:href="@{/deleteVisitor/{id}(id=${visitor.visitorNo})}">Delete</a>
+            </td>
+        </tr>
+    </table>
+    <a href="/dashboard">Back to Dashboard</a>
+</body>
+</html>

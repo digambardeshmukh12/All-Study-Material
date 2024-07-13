@@ -1,0 +1,23 @@
+<%@ page language="java" %>
+<html>
+<body>
+<h1>
+<% 
+String a = request.getParameter("t1");
+String b = request.getParameter("t2");
+if(a.equals("admin") && b.equals("admin"))
+	System.out.println(a +" "+ b);
+{
+%>
+<jsp:forward page="welcome.jsp">
+<jsp:param value="<%=a %>" name="uname" />
+</jsp:forward>
+<%
+}
+
+out.close();
+%>
+
+</h1>
+</body>
+</html>

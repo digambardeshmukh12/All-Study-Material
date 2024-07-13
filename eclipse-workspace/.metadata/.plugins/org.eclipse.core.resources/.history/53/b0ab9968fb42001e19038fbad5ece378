@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html>
+
+<style>
+  body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    text-align: center;
+    margin: 0;
+    padding: 0;
+  }
+
+  form {
+    background-color: #ffffff;
+    border-radius: 8px;
+    width: 300px;
+    margin: 0 auto;
+    padding: 20px;
+    box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.1);
+  }
+
+  input[type="text"], input[type="password"] {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    font-size: 16px;
+  }
+
+  input[type="submit"] {
+    background-color: #007bff;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 4px;
+    font-size: 16px;
+    cursor: pointer;
+  }
+
+  input[type="submit"]:hover {
+    background-color: #0056b3;
+  }
+</style>
+
+<body>
+<form action="first.jsp" method="post">
+  <h2>Login Form</h2>
+  <label for="t1">User Name:</label>
+  <input type="text" name="t1" /><br><br>
+  <label for="t2">Password:</label>
+  <input type="password" name="t2" /><br><br>
+  <input type="submit" value="Login" />
+</form>
+</body>
+</html>
