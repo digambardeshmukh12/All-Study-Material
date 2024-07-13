@@ -10,7 +10,7 @@ public class area_of_circle {
 		red = sc.nextFloat();
 		 float pi= 3.14159f;
 		
-		 System.out.println("Area of circle is " + pi*red*red +" cm²");
+		 System.out.println("Area of circle is " + pi*red*red +" cm");
 		
 		
 	}

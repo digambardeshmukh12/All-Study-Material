@@ -43,15 +43,20 @@
   "keyToString": {
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
-    "last_opened_file_path": "D:/EDUCATIONAL/IdeaProjects/firstjavaprogram",
+    "last_opened_file_path": "D:/EDUCATIONAL/IdeaProjects/firstjavaprogram/out/production/firstjavaprogram/com/company/java_91_ArrayList.class",
     "project.structure.last.edited": "SDKs",
     "project.structure.proportion": "0.0",
     "project.structure.side.proportion": "0.0",
     "settings.editor.selected.configurable": "editor.preferences.tabs"
   }
 }]]></component>
-  <component name="RunManager" selected="Application.addtion_in_arraylist">
-    <configuration name="addtion_in_arraylist" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\EDUCATIONAL\IdeaProjects\firstjavaprogram\src\com" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Java Scratch.java_91_ArrayList">
+    <configuration name="addtion_in_arraylist" type="Application" factoryName="Application" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.company.addtion_in_arraylist" />
       <extension name="coverage">
         <pattern>
@@ -115,24 +120,16 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Unnamed" type="Java Scratch" nameIsGenerated="true">
-      <module name="IdeaProjects" />
-      <shortenClasspath name="NONE" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <list>
       <item itemvalue="Application.addtion_in_arraylist" />
-      <item itemvalue="Application.java_58_inheritance_in_interface" />
       <item itemvalue="Application.ant_claimbing" />
       <item itemvalue="Application.java_110_creating_a_manual_generic" />
+      <item itemvalue="Application.java_58_inheritance_in_interface" />
       <item itemvalue="Application.test_multi_level_inheritance" />
-      <item itemvalue="Java Scratch.Unnamed" />
+      <item itemvalue="Java Scratch.java_91_ArrayList" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.addtion_in_arraylist" />
         <item itemvalue="Application.java_58_inheritance_in_interface" />
         <item itemvalue="Application.ant_claimbing" />
         <item itemvalue="Application.test_multi_level_inheritance" />

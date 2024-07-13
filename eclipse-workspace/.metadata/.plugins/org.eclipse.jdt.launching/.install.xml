@@ -1,16 +1,4 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <dirs>
-    <entry loc="C:\Program Files\Java\jdk-17\bin" stamp="1688326380162"/>
-    <entry loc="D:\New folder\All Jar and application framwork Uploded\eclipse-jee-2021-12-R-win32-x86_64\eclipse\plugins\org.eclipse.justj.openjdk.hotspot.jre.full.win32.x86_64_17.0.1.v20211116-1657" stamp="1667880049523"/>
-    <entry loc="C:\Program Files\Java\jdk1.8.0_311\bin" stamp="1679503531771"/>
-    <entry loc="D:\New folder\All Jar and application framwork Uploded\eclipse-jee-2021-12-R-win32-x86_64\eclipse\plugins\org.eclipse.justj.openjdk.hotspot.jre.full.win32.x86_64_17.0.1.v20211116-1657\jre" stamp="1667880049149"/>
-    <entry loc="D:\New folder\All Jar and application framwork Uploded\eclipse-java-2021-12-R-win32-x86_64\eclipse\plugins\org.eclipse.justj.openjdk.hotspot.jre.full.win32.x86_64_17.0.1.v20211116-1657" stamp="1679591644150"/>
-    <entry loc="C:\Program Files\Java\jdk-20\bin" stamp="1688325804408"/>
-    <entry loc="C:\Users\91930\Downloads\eclipse-jee-2021-12-R-win32-x86_64\eclipse\plugins\org.eclipse.justj.openjdk.hotspot.jre.full.win32.x86_64_17.0.1.v20211116-1657\jre" stamp="1667827361733"/>
-    <entry loc="D:\eclipse-jee-2021-12-R-win32-x86_64\eclipse\plugins\org.eclipse.justj.openjdk.hotspot.jre.full.win32.x86_64_17.0.1.v20211116-1657\jre" stamp="1667880049149"/>
-    <entry loc="C:\Program Files\Java\jdk-17" stamp="1688326381510"/>
-    <entry loc="C:\Users\91930\Downloads\eclipse-jee-2021-12-R-win32-x86_64\eclipse\plugins\org.eclipse.justj.openjdk.hotspot.jre.full.win32.x86_64_17.0.1.v20211116-1657" stamp="1667827353221"/>
-    <entry loc="C:\Program Files\Java\jdk-18.0.2\bin" stamp="1688320848162"/>
-    <entry loc="D:\eclipse-jee-2021-12-R-win32-x86_64\eclipse\plugins\org.eclipse.justj.openjdk.hotspot.jre.full.win32.x86_64_17.0.1.v20211116-1657" stamp="1667880049523"/>
-    <entry loc="D:\New folder\All Jar and application framwork Uploded\eclipse-java-2021-12-R-win32-x86_64\eclipse\plugins\org.eclipse.justj.openjdk.hotspot.jre.full.win32.x86_64_17.0.1.v20211116-1657\jre" stamp="1679591648199"/>
+<entry loc="C:\Program Files\Java\jre1.8.0_311" stamp="1679503565431"/>
 </dirs>

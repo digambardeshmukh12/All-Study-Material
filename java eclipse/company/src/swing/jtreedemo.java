@@ -9,7 +9,7 @@ public class jtreedemo extends JFrame {
 		setLayout(new FlowLayout());
 		setSize(400,400);
 		setVisible(true);
-		DefaultMutableTreeNode color = new DefaultMutableTreeNode("color");
+		DefaultMutableTreeNode color  = new DefaultMutableTreeNode("color");
 		DefaultMutableTreeNode color1 = new DefaultMutableTreeNode("red");
 		DefaultMutableTreeNode color2 = new DefaultMutableTreeNode("blue");
 		DefaultMutableTreeNode color3 = new DefaultMutableTreeNode("gray");
